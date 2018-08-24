@@ -13,3 +13,5 @@ app.listen(process.env.PORT || 3000, function() {
 }).on('error', err => {
   console.error(err);
 });
+
+module.exports = { app };
